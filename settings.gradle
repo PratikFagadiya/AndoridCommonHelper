@@ -1,0 +1,3 @@
+include ':CommonnHelper'
+include ':app'
+rootProject.name = "Commmon Helper - Library"

@@ -1,38 +1,37 @@
 package com.pratik.commonnhelper;
 
-import android.os.Build;
 import android.util.Log;
 
 public class LogUtils {
 
-    public static void LOGD(final String tag, String message) {
-        if (BuildConfig.DEBUG) {
+    public static void logD(final String tag, String message,boolean debugMode) {
+        if (debugMode) {
             Log.d(tag, message);
         }
     }
-//
-//    public static void LOGV(final String tag, String message) {
-//        if (BuildConfig.DEBUG) {
-//            Log.v(tag, message);
-//        }
-//    }
-//
-//    public static void LOGI(final String tag, String message) {
-//        if (BuildConfig.DEBUG) {
-//            Log.i(tag, message);
-//        }
-//    }
-//
-//    public static void LOGW(final String tag, String message) {
-//        if (BuildConfig.DEBUG) {
-//            Log.w(tag, message);
-//        }
-//    }
-//
-//    public static void LOGE(final String tag, String message) {
-//        if (BuildConfig.DEBUG) {
-//            Log.e(tag, message);
-//        }
-//    }
+
+    public static void logV(final String tag, String message,boolean debugMode) {
+        if (debugMode) {
+            Log.v(tag, message);
+        }
+    }
+
+    public static void logI(final String tag, String message,boolean debugMode) {
+        if (debugMode) {
+            Log.i(tag, message);
+        }
+    }
+
+    public static void logW(final String tag, String message,boolean debugMode) {
+        if (debugMode) {
+            Log.w(tag, message);
+        }
+    }
+
+    public static void logE(final String tag, String message,boolean debugMode) {
+        if (debugMode) {
+            Log.e(tag, message);
+        }
+    }
 
 }

@@ -142,4 +142,10 @@
     <color name="navy">#000080</color>
     <color name="black">#000000</color>
 
+    <!--toast's text colors-->
+    <color name="colorInfo">#29B6F6</color>
+    <color name="colorSuccess">#66BB6A</color>
+    <color name="colorWarning">#FFA726</color>
+    <color name="colorError">#EF5350</color>
+
 </resources>

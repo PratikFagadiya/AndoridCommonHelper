@@ -12,6 +12,7 @@ allprojects {
 		}
 	}
 ```
+
 ```
 dependencies {
 	        implementation 'com.github.pratikfagadiya:AndoridCommonHelper:latest-release'

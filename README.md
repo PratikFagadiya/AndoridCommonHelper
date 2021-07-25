@@ -1,5 +1,7 @@
 # AndoridCommonHelper
+
 [![](https://jitpack.io/v/pratikfagadiya/AndoridCommonHelper.svg)](https://jitpack.io/#pratikfagadiya/AndoridCommonHelper)
+
 # How to use?
 
 ```
@@ -10,6 +12,7 @@ allprojects {
 		}
 	}
 ```
+
 ```
 dependencies {
 	        implementation 'com.github.pratikfagadiya:AndoridCommonHelper:latest-release'
